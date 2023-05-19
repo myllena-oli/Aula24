@@ -6,8 +6,8 @@ public class Main {
         Carro carro2 = new Carro(4, "Mobi", "Fiat", 1.0);
         System.out.println("Aqui estão os carros: ");
 
-        System.out.println("Modelo: " + carro1.getModelo() + ", Marca: " + carro1.getMarca() + ", Potência: " + carro1.getPotencia());
-        System.out.println("\nModelo: " + carro2.getModelo() + ", Marca: " + carro2.getMarca() + ", Potência: " + carro2.getPotencia());
+        System.out.println("Modelo: " + carro1.getModelo() + ", Marca: " + carro1.getMarca() + ", Potência: " + carro1.getPotencia() +", Portas: " + carro1.getQuantidadeDePortas());
+        System.out.println("\nModelo: " + carro2.getModelo() + ", Marca: " + carro2.getMarca() + ", Potência: " + carro2.getPotencia()+", Portas: " + carro2.getQuantidadeDePortas());
 
         System.out.println("\nLigando os carros: ");
         carro1.ligarCarro();
